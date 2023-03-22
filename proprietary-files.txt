@@ -1045,6 +1045,9 @@ vendor/lib64/vendor.somc.camera.device@3.3-impl.so
 vendor/lib64/vendor.somc.camera.device@3.4-impl.so
 vendor/lib64/vendor.somc.camera.device@3.5-impl.so
 
+# Display (HDR)
+vendor/etc/libhdr_somc.xml
+
 # Display calibration data
 vendor/etc/qdcm_calib_data_3.xml
 
