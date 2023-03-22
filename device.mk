@@ -39,7 +39,8 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-   SonyPDX214SystemUIRes
+    SonyPDX214FrameworksRes \
+    SonyPDX214SystemUIRes
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
