@@ -39,7 +39,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-   SonyPDX215SystemUIRes
+   SonyPDX214SystemUIRes
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
@@ -55,4 +55,4 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/sony/pdx215/pdx215-vendor.mk)
+$(call inherit-product, vendor/sony/pdx214/pdx214-vendor.mk)
